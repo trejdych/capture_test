@@ -1,0 +1,13 @@
+name: capture_test_core
+description: Capture Flutter widget test steps as images and JSONL manifests.
+version: 0.1.0
+publish_to: none
+environment:
+  sdk: ^3.4.0
+  flutter: '>=3.22.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  test_api: ^0.7.12

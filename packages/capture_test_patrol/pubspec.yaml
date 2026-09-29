@@ -1,0 +1,15 @@
+name: capture_test_patrol
+description: Patrol adapter for capture_test_core.
+version: 0.1.0
+publish_to: none
+environment:
+  sdk: ^3.4.0
+  flutter: '>=3.22.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  capture_test_core:
+    path: ../capture_test_core
+  patrol_finders: ^3.6.0
